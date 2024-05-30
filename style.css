@@ -1,0 +1,251 @@
+body{
+    width: 100%;
+
+}
+.grid-container{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: 150px auto 50px;
+    min-height: 300px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.dashboardComp {
+width: 100%;
+height: 100%;
+text-align: center;
+
+}
+
+.tdMain{
+border: solid;
+
+}
+
+.numMain{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+
+
+
+.intro{
+align-items: center;
+text-align: center;
+width: 200%;
+height: 200px;
+margin-left: 150%;
+margin-top: 100px;
+
+
+}
+
+.header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 5px 10px;
+}
+
+.sidebar{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    margin: 10px 5px 5px 10px;
+    
+}
+
+.logoComp{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button2{
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.input {
+    width: 48%;
+    height: 50px;
+    background-color: rgb(190, 192, 214);
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.but-selected{
+    background-color: rgb(131, 145, 169);
+}
+
+.content{
+    grid-column:  2 / 4;
+    grid-row: 2;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.footer{
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: rgb(94, 88, 88);
+    margin: 10px;
+    color: rgb(151, 151, 151);
+}
+
+.container{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.box{
+
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    float: left;
+    width: 110px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.table-np{
+    width: 80%;
+    margin-left: 5%;
+    border: solid;
+    border-color: rgb(214, 214, 214);
+    padding: 20px;
+
+
+}
+
+.r2{
+width: 200px;
+
+
+}
+h1, h2, h3{
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.title{
+    font-size: 25px;
+}
+
+
+.table1 {
+    width: 100%;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(173, 173, 173);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.table2 {
+
+
+    border: solid;
+    border-radius: 1.2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.table3 {
+text-align: center;
+width: 80%;
+margin-left: 10%;
+    border: solid;
+    border-radius: 1.2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nomemp{
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+
+}
+.descemp{
+    font-size: 20px;
+}
+
+.container {
+
+    align-items: center;
+    text-align: center;
+
+
+      
+
+}
+
+.imgpack{
+   width: 300px;  
+   border-radius: 1.2rem;
+
+}
+
+.logoCompany{
+
+    width : 50px;
+}
+
+.infoPack {
+align-items: center;
+text-align: center;
+width: 100%;
+
+}
